@@ -41,3 +41,16 @@ Class: ``` MoneyMachine ```
 
 ---
 
+# Features:
+- **Drink Selection:** User selects a drink (espresso, latte, or cappuccino) from the Menu.
+- **Resource Management:** The CoffeeMaker class manages the water, milk, and coffee levels.
+- **Coin Payment System:** The MoneyMachine class simulates the insertion of coins (quarters, dimes, nickels, pennies).
+- **Profit Reporting:** The MoneyMachine class tracks and displays the total profit earned by the machine.
+- **Error Handling:**
+  - The CoffeeMaker checks if there are enough resources before making a drink.
+  - The MoneyMachine checks if enough money has been inserted and returns change or refunds payment if necessary.
+ 
+# Notes
+* **Design:** Each class (CoffeeMaker, Menu, MenuItem, MoneyMachine) has its own clear responsibility, ensuring modular and reusable code.
+* **Encapsulation:** By using OOP, each part of the system (coffee resources, menu, and money processing) is encapsulated within its own class, making the code easier to maintain and extend.
+* **Scalability:** New drinks can be added easily by extending the Menu class, demonstrating the flexibility of the OOP structure.
