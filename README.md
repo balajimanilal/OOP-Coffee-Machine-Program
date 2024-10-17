@@ -7,6 +7,7 @@ The project is organized into four Python files, each representing a key object 
 ``` 1. coffee_maker.py ```
 
 Class: ``` CoffeeMaker ```
+
 **Responsibilities:**
 - Manages and stores the coffee machine's resources (water, milk, coffee).
 - Provides methods to check if enough resources are available for a drink order.
@@ -16,6 +17,7 @@ Class: ``` CoffeeMaker ```
 ``` 2. menu.py ```
 
 Classes: ``` Menu, MenuItem ```
+
 **Responsibilities:**
 - **MenuItem:** Represents a single coffee drink as an object, including its ingredients (water, milk, coffee) and its cost.
 - **Menu:** Acts as a collection of available MenuItem objects. It provides methods to retrieve available drinks and search for a drink by name.
@@ -23,6 +25,7 @@ Classes: ``` Menu, MenuItem ```
 ``` 3. money_machine.py ```
 
 Class: ``` MoneyMachine ```
+
 **Responsibilities:**
 - Handles the machine’s coin-based payment system.
 - Processes user coin input, calculates the total amount of money received, and checks if the payment is sufficient.
